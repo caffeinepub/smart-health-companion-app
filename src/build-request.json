@@ -1,0 +1,167 @@
+{
+  "kind": "build_request",
+  "title": "Create AI-Based Smart Health Companion App Landing Page",
+  "projectName": "Smart Health Companion",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section with headline 'Your Complete Health, Powered by AI', subheading 'An integrated smart health companion that monitors fitness, diet, mental well-being, and preventive care — all in one place.', and two CTA buttons labeled 'Get Started' and 'Learn More'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Headline: \"Your Complete Health, Powered by AI\"",
+          "Subheading: An integrated smart health companion that monitors fitness, diet, mental well-being, and preventive care — all in one place.",
+          "Call-to-Action Buttons: Get Started, Learn More"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays the exact headline and subheading text",
+        "Two CTA buttons are visible and labeled correctly",
+        "Section is visually prominent as the first content users see"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a Problem section with title 'The Problem' explaining that many health apps focus on only one area (fitness or diet) while ignoring mental well-being and preventive care, with no single integrated solution providing a complete health picture",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Title: The Problem",
+          "Nowadays, many health apps focus on only one area — either fitness or diet — while ignoring mental well-being and preventive care. There is no single integrated solution that provides a complete picture of a person's overall health."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays 'The Problem' as the title",
+        "Content accurately describes the fragmented health app landscape",
+        "Text conveys the lack of integrated solutions"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Solution section with title 'Our Solution' describing an AI-based Smart Health Companion App that collects daily health inputs (food intake, physical activity, stress levels, sleep hours) and generates personalized health insights, preventive health recommendations, and smart lifestyle improvement suggestions using advanced AI analytics",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Title: Our Solution",
+          "We propose an AI-based Smart Health Companion App that delivers a complete and personalized health experience.",
+          "The system collects daily health inputs such as: Food intake, Physical activity, Stress levels, Sleep hours",
+          "Using advanced AI analytics, the app generates: Personalized health insights, Preventive health recommendations, Smart lifestyle improvement suggestions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays 'Our Solution' as the title",
+        "Lists all four health input types: food intake, physical activity, stress levels, sleep hours",
+        "Lists all three AI-generated outputs: personalized insights, preventive recommendations, lifestyle suggestions",
+        "Content emphasizes AI-powered personalization"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create an Emergency Alert Feature section with title 'Smart Emergency Health Alerts' explaining that the system monitors for abnormal conditions (extreme heart rate, high stress levels, critical sleep deprivation), automatically triggers alerts, notifies users immediately, and redirects them to the nearest hospital or emergency service using GPS location",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Title: Smart Emergency Health Alerts",
+          "If the user's health data shows abnormal conditions such as: Extreme heart rate, High stress levels, Critical sleep deprivation",
+          "The system will: Automatically trigger an alert, Notify the user immediately, Redirect them to the nearest hospital or emergency service using GPS location"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays 'Smart Emergency Health Alerts' as the title",
+        "Lists the three abnormal conditions monitored: extreme heart rate, high stress levels, critical sleep deprivation",
+        "Describes the three-step emergency response: automatic alert trigger, immediate user notification, GPS-based redirection to nearest hospital",
+        "Content conveys intelligent health monitoring and safety features"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Features section listing six key features: AI-Powered Health Analysis, All-in-One Wellness Tracking, Mental & Physical Health Monitoring, Preventive Care Recommendations, Real-Time Emergency Alerts, and GPS-Based Emergency Assistance",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Features Section: AI-Powered Health Analysis, All-in-One Wellness Tracking, Mental & Physical Health Monitoring, Preventive Care Recommendations, Real-Time Emergency Alerts, GPS-Based Emergency Assistance"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays all six features exactly as listed",
+        "Features are presented in a scannable, visually organized format",
+        "Each feature is clearly distinguishable from others"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a footer with the tagline 'Smart Health. Smarter Living.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Footer Tagline: Smart Health. Smarter Living."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays the exact tagline text",
+        "Tagline is positioned prominently in the footer"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Apply a modern, innovative, and trustworthy visual design theme across the landing page with a sophisticated color palette (avoiding blue and purple unless naturally fitting health context), clean typography, and cohesive layout that conveys professionalism and user-friendliness appropriate for a health technology platform",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Create a modern, responsive website for an AI-powered Smart Health Companion App that promotes complete well-being. The tone should be innovative, trustworthy, and user-friendly."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual design conveys innovation, trust, and user-friendliness",
+        "Color scheme is modern and appropriate for health technology context",
+        "Typography is clean and readable",
+        "Layout is cohesive across all sections",
+        "Design reinforces the professional nature of the health platform"
+      ]
+    }
+  ],
+  "constraints": [
+    "Website must be fully responsive across mobile, tablet, and desktop viewports",
+    "All content sections must use the exact copy provided in the user's message",
+    "Do not implement actual GPS location services, emergency alert logic, or LLM integrations - this is a landing page only"
+  ],
+  "nonGoals": [
+    "Backend health data collection or storage",
+    "Actual AI analytics implementation",
+    "Real GPS-based emergency services integration",
+    "User authentication or account management",
+    "Mobile app development",
+    "Integration with external health APIs or services"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Modern abstract health technology hero background with geometric patterns and gradients suggesting AI and wellness (hero-bg.dim_1920x1080.png)",
+      "Minimalist icon representing integrated health monitoring showing interconnected health symbols (integrated-health-icon.dim_256x256.png)",
+      "Clean illustration of AI brain with health symbols radiating outward for solution section (ai-health-analysis.dim_512x512.png)",
+      "Emergency alert symbol with medical cross and notification waves (emergency-alert-icon.dim_256x256.png)"
+    ],
+    "edits": []
+  }
+}

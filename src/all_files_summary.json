@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as a placeholder backend with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting five implemented landing page sections (Hero, Problem, Solution, Emergency Alerts, Features) with high confidence and associated test IDs.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files describing component purposes, styling configuration, and noting the static nature of the landing page.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark modes, including health-tech themed color palette and base styling.",
+  "frontend/index.html": "HTML entry point with viewport meta tags, page title 'Smart Health Companion App', and root div mounting the React application.",
+  "frontend/src/App.tsx": "Root React component that composes and renders the complete landing page by stacking Hero, Problem, Solution, Emergency Alerts, Features, and Footer sections.",
+  "frontend/src/components/EmergencyAlertsSection.tsx": "Section component displaying smart emergency health alert features with monitored conditions (heart rate, stress, sleep), emergency response steps, and GPS-based assistance visualization.",
+  "frontend/src/components/FeaturesSection.tsx": "Grid-based features section showcasing six key platform capabilities with icons, titles, descriptions, and hover effects using shadcn Card components.",
+  "frontend/src/components/Footer.tsx": "Footer component with tagline 'Smart Health. Smarter Living.', copyright notice, and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/components/Hero.tsx": "Hero section with headline, subheading, two CTA buttons (Get Started, Learn More), background image with gradient overlay, decorative elements, and smooth scroll navigation.",
+  "frontend/src/components/ProblemSection.tsx": "React component that displays the problem statement section, highlighting how current health apps are fragmented (fitness-only, diet-only, or ignore mental health) with icons and a grid layout.",
+  "frontend/src/components/SolutionSection.tsx": "React component that presents the solution section, showing a three-column flow of health inputs, AI processing visualization, and AI-generated insights with icons and images.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that manages the backend actor instance using React Query, creating authenticated or anonymous actors based on Internet Identity and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Custom React hook and provider for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file indicating the landing page uses only static content without backend queries.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a teal and coral health-tech color palette for both light and dark modes, plus base typography styles.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClient and InternetIdentityProvider wrappers around the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom colors using OKLCH color space, container settings, border radius variables, animations, and typography/container-queries plugins.",
+  "project_state.json": "Project state file defining an AI-based Smart Health Companion App website with features including hero section, problem/solution sections, emergency alerts, and testimonials. Tracks architectural notes, existing features with requirement IDs, and specifies required images for the responsive health platform showcase."
+}

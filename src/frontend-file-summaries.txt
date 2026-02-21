@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete landing page structure with Hero, Problem, Solution, Emergency Alerts, Features sections, and Footer.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the main headline, subheading, CTA buttons, background image with overlay, decorative elements, and smooth scroll navigation.",
+  "frontend/src/components/ProblemSection.tsx": "Problem section component explaining the fragmented health app landscape with visual representation of isolated fitness, diet, and mental health apps.",
+  "frontend/src/components/SolutionSection.tsx": "Solution section component showcasing the AI-based Smart Health Companion with health inputs, AI processing visualization, and generated insights in a three-column flow layout.",
+  "frontend/src/components/EmergencyAlertsSection.tsx": "Emergency alerts section component detailing the smart health monitoring system, abnormal conditions tracked, and three-step emergency response process with GPS assistance.",
+  "frontend/src/components/FeaturesSection.tsx": "Features section component displaying six key platform capabilities in a responsive card grid with icons, titles, and descriptions.",
+  "frontend/src/components/Footer.tsx": "Footer component with prominent tagline \"Smart Health. Smarter Living.\", copyright information, and attribution link to caffeine.ai with UTM tracking.",
+  "frontend/src/index.css": "Global styles with custom OKLCH color system featuring teal and coral health-tech palette for both light and dark modes, typography settings, and utility classes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended theme including custom colors, Inter font family, enhanced border radius values, and custom shadows for the health-tech design system.",
+  "frontend/src/hooks/useQueries.ts": "Empty hooks file as the landing page is static and does not require backend data queries."
+}

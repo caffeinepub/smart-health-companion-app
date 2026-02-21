@@ -1,2 +1,3 @@
-# smart-health-companion-app
-Exported from Caffeine project: Smart Health Companion App
+## Smart Health Companion App
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`
